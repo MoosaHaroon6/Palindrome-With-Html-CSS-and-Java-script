@@ -1,0 +1,142 @@
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #212121;
+    color: green;
+}
+
+
+label {
+    font-family: "Lilita One", sans-serif;
+    font-size: 1.5em;
+    color: #ffb702;
+    margin-left: 500px;
+}
+
+#check-btn-div {
+    margin-left: 760px;
+}
+
+
+#check-btn {
+    --color: #ffb702;
+    font-family: "Lilita One", sans-serif;
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin-left: 100px;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 20px !important;
+    border-radius: 15px;
+    font-weight: bold;
+    color: var(--color);
+}
+
+#check-btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 200px;
+    width: 360px;
+    border-radius: 50%;
+}
+
+#check-btn:hover {
+    color: #fff;
+}
+
+#check-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+#check-btn:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+#check-btn:active:before {
+    background: #ffb702;
+    transition: background 0s;
+}
+
+.palindrome-Input {
+    margin: 30px;
+    /* margin-left: 500px; */
+    background: none;
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 60px;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    border-radius: 9999px;
+    box-shadow: inset 2px 5px 10px #ffb702;
+    color: #ffb702;
+    text-align: center;
+}
+
+
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    color: #808080;
+    font-size: 5em;
+}
+
+
+h1>span {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    color: #ffb702;
+    /* font-size: 5em; */
+}
+
+p {
+    color: #ffb702;
+    margin-left: 500px;
+    font-size: 1.5em;
+    font-family: "Lilita One", sans-serif;
+}
+
+p>span {
+    color: #808080;
+    text-decoration: line-through;
+}
+
+
+.for-palindrome {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+h3 {
+    color: #fff;
+    font-family: "Lilita One", sans-serif;
+    /* font-size: 300px; */
+    margin-left: 500px;
+}
